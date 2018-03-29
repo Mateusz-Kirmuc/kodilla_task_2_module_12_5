@@ -23,3 +23,10 @@ function createTweet(input) {
     $('.tweet').attr('href', tweet);
   }
 }
+
+$(function() {
+  getQuote();
+  $('.trigger').click(function() {
+    getQuote();
+  })
+});
