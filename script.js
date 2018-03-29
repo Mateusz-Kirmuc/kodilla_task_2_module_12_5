@@ -24,9 +24,7 @@ function createTweet(input) {
   }
 }
 
-$(function() {
-  getQuote();
-  $('.trigger').click(function() {
-    getQuote();
-  })
-});
+getQuote();
+$('.trigger').click(function() {
+      getQuote();
+    }
